@@ -8,7 +8,7 @@ var lightGrey = "#818384";
 var darkGrey = "#3a3a3c";
 
 startMessage = "Click a number to begin";
-winMessage = "You Win!";
+winMessage = "🎉🎊 You Win! 🎊🎉";
 lessMessage = "Too small";
 greaterMessage = "Too big";
 
