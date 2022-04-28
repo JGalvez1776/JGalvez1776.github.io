@@ -1,49 +1,91 @@
 body {
     background-color: #121213;
     color: #ffffff;
-    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'ClearSans', 'Helvetica Neue', Arial, sans-serif;
     font-size: xx-large;
 }
 
-
-#resetGame {
+.buttonsBlock {
     display: flex;
     justify-content: center;
     align-items: center;
-    visibility: hidden;
+    margin: 3%;
+}
 
+#gameTable {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+#gameSection {
+    border-style: solid;
+}
+
+td {
+    padding: 5px;
+}
+
+.hoverspot:hover {
+    opacity: 1;
+}
+
+.hoverspot {
+    height: 2.3em;
+    width: 2.3em;
+    opacity: 0;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.gameButton {
+    height: 2.3em;
+    width: 2.3em;
+    border: 2px solid #d8d8d8;
+    border-radius: 100%;
+    margin: 0px;
+    background-color: #121213;
+}
+
+.button {
+    border-radius: 20px;
+    width: 50%;
+    height: auto;
+    font-size: 64px;
 }
 
 #resetButton {
-    border: none;
-    border-radius: 10px;
-    color: #ffffff;
-    margin: 15px;
-    padding: 15px;
+    border-radius: 20px;
+    width: 75%;
+    height: auto;
     font-size: 64px;
-    background-color: #538d4e; 
 }
 
 
-
-#gameTable {
-    margin: auto;
-}
-
-#titleBar {
+.titleBar {
     text-align: center;
-    size: 10vmax;
+    font-size: 64px;
 }
 
+#title {
+    font-size: 32px;
+}
 
-.gameButton {
-    /*b59f3b Yellow*/
-    /*538d4e Green*/
-    border: none;
-    border-radius: 10px;
-    color: #ffffff;
-    width: 128px;
-    height: 128px;
-    font-size: 64px;
-    background-color: #ffffff; 
+#games {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 2em;
+
+}
+
+#leaderboard th {
+    text-align: left;
+}
+
+#leaderboard td {
+    width: 400px;
+    text-align: left;
 }
