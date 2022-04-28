@@ -5,6 +5,10 @@ body {
     font-size: xx-large;
 }
 
+h1, h2 {
+    cursor: pointer;
+}
+
 .buttonsBlock {
     display: flex;
     justify-content: center;
